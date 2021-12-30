@@ -1,0 +1,2 @@
+- primitive value - Undefined, Null, Boolean, Number, BigInt, Symbol, or String
+- object - member of the Object type

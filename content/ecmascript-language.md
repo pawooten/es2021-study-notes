@@ -47,3 +47,10 @@ Built-In Objects Defined by ECMAScript:
 - Reflection Objects (Proxy and Reflect)
 
 ECMAScript features various operators, and modules.
+
+Objects may be created via literal notation or via constructors, which create objects and then execute code that initializes all or part of them by assigning intial values to properties.
+
+Each constructor is a function that has a property name "prototype" that is used to implement prototype-based inheritance. 
+
+Properties can be added to objects dynamically.
+
