@@ -1,4 +1,6 @@
 # TODO
+#### Concepts
+- prototypal inheritance
 #### Syntax Deep Dive
 - async
 - for ... in

@@ -1,2 +1,20 @@
-- primitive value - Undefined, Null, Boolean, Number, BigInt, Symbol, or String
-- object - member of the Object type
+- `primitive value` - Undefined, Null, Boolean, Number, BigInt, Symbol, or String
+- `object` - member of the Object type
+- `constructor` - `function object` that creates and initializes objects.
+    - The value of an object's "prototype" property is a prototype object that is used to implement inheritance and shared properties.
+- `prototype` - object that provides shared properties for other objects
+- `ordinary object` - object that has the default behavior for the essential internal methods that must be supported by all objects.
+    - [behavior (not semantics) is defined by the spec](https://stackoverflow.com/questions/70557465/what-is-the-difference-between-a-standard-object-and-an-ordinary-object-in-e)
+- `exotic object` - object that does not have the default behavior for one or more of the essential internal methods.
+    - Any object that is not an `ordinary object` is an `exotic object`
+- `standard object` - object whose semantics are defined by this specification.
+    - Semantics and behavior are defined by the spec.
+- `built-in object` - object specified and supplied by an ECMAScript implementation
+- `undefined value` - primitive value used when a variable has not been assigned a value. `undefined` is supposed to indicate a variable which was declared but never assigned. [This isn't a safe assumption, because varables which have been assigned can be re-assigned to `undefined`.](https://jsfiddle.net/pawooten/h45jdsmk/1/)
+- `Undefined value` - type whose sole value is the `undefined` value.
+- `null value` - primitive value that represents the intentional absence of any object value. `null` is an assignment value. It indicates an explicit assignment to a non-value.
+- `Null type` - type whose value is the `null` value
+- `Boolean value` - member of the Boolean type.
+    - There are only two values: `true` and `false`
+- `Boolean object` - member of the Object type that is an instance of the standard built-in Boolean constructor.
+- `String value` - Primitive value that is a finite ordered sequence of zero or more 16-bit unsigned integer values.
