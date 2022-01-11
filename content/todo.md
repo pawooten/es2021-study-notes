@@ -6,11 +6,15 @@
 - for ... in
 - Map
 - modules
+- console
+    - table()
 - Array
     - includes()
     - flat
     - flatMap
     - sort()
+    - map()
+    - reduce()
 - Object (study of key static methods)
     - values
     - entries

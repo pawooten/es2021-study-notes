@@ -1,0 +1,4 @@
+- nullish - `null` or `undefined`
+- truthy - A value that is considered `true` when encountered in a Boolean context.
+- falsy - A value that is considered `false` when encountered in a Boolean context.
+    - falsy values include: `false, 0, -0, 0n, "", '', ``, null, undefined, NaN, document.all`

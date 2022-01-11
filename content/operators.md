@@ -1,4 +1,38 @@
 ECMAScript Operators
+- [Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment)
+    - [Addition assignment (+=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment)
+        - Supports addition and concatenation.
+    - [Bitwise AND assignment (&=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND_assignment)
+        - Bitwise AND of the binary representation of both operands and assigns the result to the variable.
+    - [Bitwise OR assignment (|=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR_assignment)
+        - Bitwise OR of the binary representation of both operands and assigns the result to the variable.
+    - [Bitwise XOR assignment (^=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR_assignment)
+        - Bitwise XOR of the binary representation of both operands and assigns the result to the variable.
+    - [Division assignment (/=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division_assignment)
+        - Divides a variable of the right operand and assigns the result to the variable.
+    - [Exponentiation assignment (**=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation_assignment)
+        - Raises the value of a variable to the power of the right operand.
+    - [Left shift assignment (<<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Left_shift_assignment)
+        - Moves the specified amount of bits to the left and assigns the result to the variable.
+    - [Logical AND assignment (&&=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment)
+        - The `x &&= y`assignment only occurs if `x` is truthy.
+    - [Logical nullish assignment (??=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment)
+        - The `x ??= y` assignment only occurs if `x` is nullish.
+    - [Logical OR assignment (||=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment)
+        - The `x ||= y` assignment only occurs if `x` is falsy.
+    - [Multiplication assignment (*=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication_assignment)
+    - [Remainder assignment (%=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder_assignment)
+        - Divides a variable by the value of the right operand and assigns the remainder to the variable.
+    - [Right shift assignment (>>=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Right_shift_assignment)
+        - Moves the specified amount of bits to the right and assigns the result to the variable.
+    - [Subtraction assignment -=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction_assignment)
+    - [Unsigned right shift assignment (>>>=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unsigned_right_shift_assignment)
+        - Moves the specified amount of bits to the right and assigns the result to the variable.
+
+- [Bitwise XOR ^](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR)
+    - Returns a `1` in each bit position for which the corresponding bits of either, but not both, operads are `1`s.
+    - Operands are converted to 32-bit integers.
+        - The most significant digits of numbers with more than 32 bits are discarded!
 - [Comma](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator)
     - Evaluates operands (left to right) and returns the value of the last operand.
     - Example usage to increment or decrement more than one variable within a for loop.
